@@ -1,6 +1,6 @@
 # .bash_profile - load .bashrc                                                                                                                          
-if [ -f $HOME/workspace/.bashrc ]; then                                                                                                                 
-  . $HOME/workspace/.bashrc                                                                                                                             
+if [ -f ~/.bashrc ]; then                                                                                                                 
+  . ~/.bashrc                                                                                                                             
 fi                                                                                                                                                      
                                                                                                                                                         
 [[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh # This loads NVM                                                                                      

@@ -8,6 +8,6 @@ declare -x SMTP_PASS='password'
 # You may want to put all your additions into a separate file like
 # $HOME/workspace/.bash_aliases, instead of adding them here directly.
 
-if [ -f $HOME/workspace/.bash_aliases ]; then
-    . $HOME/workspace/.bash_aliases
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
 fi
