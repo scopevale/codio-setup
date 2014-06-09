@@ -32,7 +32,7 @@ build/Release
 # see https://npmjs.org/doc/faq.html#Should-I-check-my-node_modules-folder-into-git
 node_modules
 
-# Bootstrap SASS tarfile & extraced folder
+# Bootstrap SASS tarfile & extracted folder
 bootstrap-sass-3.1.1
 v3.1.1.tar.gz
 
