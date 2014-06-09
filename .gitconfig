@@ -1,23 +1,24 @@
-[user]                                                                                                                                                  
-        email = scopevale@gmail.com                                                                                                                     
-        name = scopevale                                                                                                                                
-[alias]                                                                                                                                                 
-        st = status                                                                                                                                     
-        ci = commit -am                                                                                                                                 
-        co = checkout                                                                                                                                   
-        br = branch                                                                                                                                     
-        unstage = reset HEAD --                                                                                                                         
-        last = log -1 HEAD                                                                                                                              
-        fdiff = diff --name-only                                                                                                                        
-        hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short                                                                         
-        m = checkout master                                                                                                                             
-[core]                                                                                                                                                  
-        editor = vim                                                                                                                                    
-[diff]                                                                                                                                                  
-        tool = vimdiff                                                                                                                                  
-[merge]                                                                                                                                                 
-        tool = vimdiff                                                                                                                                  
-[difftool]                                                                                                                                              
-        prompt = false                                                                                                                                  
-[color]                                                                                                                                                 
+[user]
+        email = scopevale@gmail.com
+        name = scopevale
+[alias]
+        st = status
+        ci = commit -am
+        co = checkout
+        br = branch
+        unstage = reset HEAD --
+        last = log -1 HEAD
+        fdiff = diff --name-only
+        hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+        m = checkout master
+[core]
+        editor = vim
+[diff]
+        tool = vimdiff
+[merge]
+        tool = vimdiff
+[difftool]
+        prompt = false
+[color]
         ui = auto
+        
