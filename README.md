@@ -1,7 +1,7 @@
 codio-setup
 ===========
 
-My codio config files
+My codio project config files
 
-Copy these various files into the /home/codio & /home/codio/workspace directories for new node projects
+Clone this repo into the /home/codio directory of a new codio project & then copy these various files into the /home/codio & /home/codio/workspace directories for new node projects
 
