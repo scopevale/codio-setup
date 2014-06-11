@@ -8,8 +8,7 @@ Clone this repo into the /home/codio directory of a new codio project & then cop
 
 To switch to OH MY ZSH
 
-echo "zsh && exit 0" >> ~/.bash_profile &&  
-curl -L http://install.ohmyz.sh | sh 
+echo "zsh && exit 0" >> ~/.bash_profile &&  curl -L http://install.ohmyz.sh | sh 
 
 then exit the terminal & re-connect
 
