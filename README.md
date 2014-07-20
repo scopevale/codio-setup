@@ -25,19 +25,28 @@ coffee-script
 coffeelint
 
 express-generator - for express apps
+
 gulp
+
 js2coffee
+
 jshint
+
 mocha
+
 node-inspector
+
 npm
+
 ungit
 
 
 other software
 --------------
 pip - `parts install pip`
+
 linkchecker - `pip install linkchecker`
+
 jq - `wget http://stedolan.github.io/jq/download/linux64/jq` - install into ~/ and then `chmod +x ~/jq`
 
 
