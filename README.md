@@ -46,15 +46,18 @@ jq - wget http://stedolan.github.io/jq/download/linux64/jq - install into ~/ and
 
 add the fillowing lines to end of .zshrc
 ----------------------------------------
-## my added stuff
+`## my added stuff
 alias jq="$HOME/jq"
+
 alias linkchecker="$HOME/./.parts/packages/python2/2.7.6-2/bin/linkchecker"
 
 # export API_KEYS - eg: Orchestrate, MongoLabs, Sendgrid, Mandrill, PasswordLess, StormPath etc...
+
 export ORCHESTRATE_API_KEY="your-orchestrate-api-key"
 
 # enable nvm for oh-my-zsh
-source $HOME/.nvm/nvm.sh
+
+source $HOME/.nvm/nvm.sh`
 
 
                             
