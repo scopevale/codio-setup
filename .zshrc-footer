@@ -1,0 +1,12 @@
+## my added stuff
+alias jq="$HOME/jq"
+
+alias linkchecker="$HOME/./.parts/packages/python2/2.7.6-2/bin/linkchecker"
+
+# export API_KEYS - eg: Orchestrate, MongoLabs, Sendgrid, Mandrill, PasswordLess, StormPath etc...
+
+export ORCHESTRATE_API_KEY="your-orchestrate-api-key"
+
+# enable nvm for oh-my-zsh
+
+source $HOME/.nvm/nvm.sh
