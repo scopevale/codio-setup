@@ -21,3 +21,40 @@ If using nvm be sure to add the following at end of ~/.zshrc file
 source $HOME/.nvm/nvm.sh
 
 then exit the terminal & re-connect
+
+
+npm global modules
+------------------
+coffee-script
+coffeelint
+express-generator - for express apps
+gulp
+js2coffee
+jshint
+mocha
+node-inspector
+npm
+ungit
+
+
+other software
+--------------
+pip - parts install pip
+linkchecker - pip install linkchecker
+jq - wget http://stedolan.github.io/jq/download/linux64/jq - install into ~/ and then chmod +x ~/jq
+
+
+add the fillowing lines to end of .zshrc
+----------------------------------------
+## my added stuff
+alias jq="$HOME/jq"
+alias linkchecker="$HOME/./.parts/packages/python2/2.7.6-2/bin/linkchecker"
+
+# export API_KEYS - eg: Orchestrate, MongoLabs, Sendgrid, Mandrill, PasswordLess, StormPath etc...
+export ORCHESTRATE_API_KEY="your-orchestrate-api-key"
+
+# enable nvm for oh-my-zsh
+source $HOME/.nvm/nvm.sh
+
+
+                            
