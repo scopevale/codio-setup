@@ -30,13 +30,13 @@ gulp
 
 js2coffee
 
-jshint
+jshinthttps://github.com/scopevale/codio-setup/blob/master/README.md
 
 mocha
 
 node-inspector
 
-npm
+nvm - should be already installed
 
 ungit
 
