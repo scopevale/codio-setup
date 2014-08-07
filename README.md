@@ -30,7 +30,7 @@ gulp
 
 js2coffee
 
-jshinthttps://github.com/scopevale/codio-setup/blob/master/README.md
+jshint
 
 mocha
 
