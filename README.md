@@ -13,7 +13,7 @@ To switch to OH MY ZSH'''
 
 Be sure to apend the .zshrc-footer to end of ~/.zshrc file - adds some aliases, paths & ENV vars
 
-`cat ~/.zshrc-footer >> ~/.zshrc`
+`cat ~/codio-setup/.zshrc-footer >> ~/.zshrc`
 
 then exit the terminal & re-connect
 
