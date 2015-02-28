@@ -18,28 +18,30 @@ Be sure to apend the .zshrc-footer to end of ~/.zshrc file - adds some aliases, 
 then exit the terminal & re-connect
 
 
+install iojs
+------------
+
+first replace nvm with critionix version
+`curl https://raw.githubusercontent.com/creationix/nvm/v0.10.0/install.sh | zsh`
+
+then, install iojs
+`nvm install iojs`
+
+alias as default
+`nvm alias default iojs`
+
 npm global modules
 ------------------
-coffee-script
 
-coffeelint
+modules for all projects
+`npm i -g bower jshint mocha gulp yo ungit`
 
+additonal modules - optional
+
+coffee-script coffeelint js2coffee - for coffeescript projects
 express-generator - for express apps
-
-gulp
-
-js2coffee
-
-jshint
-
-mocha
-
+generator-ko - for koa apps -- `yo koa`
 node-inspector
-
-nvm - should be already installed
-
-ungit
-
 
 other software
 --------------
@@ -49,16 +51,13 @@ linkchecker - `pip install linkchecker`
 
 jq - `wget http://stedolan.github.io/jq/download/linux64/jq` - install into ~/ and then `chmod +x ~/jq`
 
-
 mongodb setup
 -------------
-
 -- add this to your .zshrc
 # start mongodb                                                                                                   
 export MONGOSTAT="`parts status mongodb`"                                                                         
 if [ $MONGOSTAT = 'mongodb STOPPED' ]                                                                             
 then                                                                                                              
     parts start mongodb                                                                                           
-fi                                                                                                                
-                                                                                                                  
-                            
+fi
+
