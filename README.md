@@ -21,7 +21,7 @@ then exit the terminal & re-connect
 install iojs
 ------------
 
-first replace nvm with critionix version
+first replace nvm with creationix version
 
 `curl https://raw.githubusercontent.com/creationix/nvm/v0.10.0/install.sh | zsh`
 
