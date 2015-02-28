@@ -66,7 +66,7 @@ mongodb setup
 
 ```
 # start mongodb                                                                                                   
-export MONGOSTAT="\`parts status mongodb\`"                                                                         
+export MONGOSTAT="`parts status mongodb`"                                                                         
 if [ $MONGOSTAT = 'mongodb STOPPED' ]                                                                             
 then                                                                                                              
     parts start mongodb                                                                                           
