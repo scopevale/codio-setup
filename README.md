@@ -50,5 +50,15 @@ linkchecker - `pip install linkchecker`
 jq - `wget http://stedolan.github.io/jq/download/linux64/jq` - install into ~/ and then `chmod +x ~/jq`
 
 
+mongodb setup
+-------------
 
+-- add this to your .zshrc
+# start mongodb                                                                                                   
+export MONGOSTAT="`parts status mongodb`"                                                                         
+if [ $MONGOSTAT = 'mongodb STOPPED' ]                                                                             
+then                                                                                                              
+    parts start mongodb                                                                                           
+fi                                                                                                                
+                                                                                                                  
                             
