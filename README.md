@@ -38,6 +38,11 @@ npm global modules
 
 modules for all projects
 
+to show all installed global modules (just the top level)
+`npm ls -g --depth=0`
+
+without -g, show all local modules
+
 `npm i -g bower jshint mocha gulp yo ungit`
 
 additonal modules - optional
